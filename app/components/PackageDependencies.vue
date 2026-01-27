@@ -130,7 +130,7 @@ const sortedOptionalDependencies = computed(() => {
           <NuxtLink
             :to="{
               name: 'package',
-              params: { package: [...peer.name.split('/'), 'v', peer.version] },
+              params: { ...parsePackageRouteParams(peer.name), version: peer.version },
             }"
             class="font-mono text-xs text-fg-subtle max-w-[40%] text-right truncate"
             :title="peer.version"
