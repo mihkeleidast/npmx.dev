@@ -44,11 +44,23 @@
     "popular_packages": "Popular packages",
     "search": "search",
     "settings": "settings",
-    "back": "Back"
+    "back": "back"
   },
   "settings": {
+    "title": "settings",
+    "tagline": "customize your npmx experience",
+    "meta_description": "Customize your npmx.dev experience with theme, language, and display preferences.",
+    "sections": {
+      "appearance": "Appearance",
+      "display": "Display",
+      "language": "Language"
+    },
     "relative_dates": "Relative dates",
+    "relative_dates_description": "Show \"3 days ago\" instead of full dates",
     "include_types": "Include {'@'}types in install",
+    "include_types_description": "Add {'@'}types package to install commands for untyped packages",
+    "hide_platform_packages": "Hide platform-specific packages in search",
+    "hide_platform_packages_description": "Hide native binary packages like {'@'}esbuild/linux-x64 from results",
     "theme": "Theme",
     "theme_light": "Light",
     "theme_dark": "Dark",
@@ -210,7 +222,9 @@
       "end_date": "End",
       "no_data": "No download data available",
       "loading": "Loading...",
-      "y_axis_label": "{granularity} downloads"
+      "y_axis_label": "{granularity} downloads",
+      "download_file": "Download {fileType}",
+      "toggle_annotator": "Toggle annotator"
     },
     "install_scripts": {
       "title": "Install Scripts",
