@@ -4,6 +4,7 @@
  * @param pkg - Package name (e.g., "nuxt" or "@nuxt/kit")
  * @param version - Optional version string
  * @returns Route object with name and params
+ * @public
  */
 export function getPackageRoute(pkg: string, version: string | null = null) {
   return {
