@@ -88,10 +88,10 @@ jobs:
         run: pnpm install
 
       - name: 🏗️ Build project
-        run: pnpm build:playwrightt
+        run: pnpm build:playwright
 
       - name: 🖥️ Test project (browser)
-        run: pnpm test:browser
+        run: pnpm test:browser:prebuilt
 
   a11y:
     runs-on: ubuntu-latest
